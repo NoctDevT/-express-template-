@@ -1,7 +1,6 @@
 import Express from "express";
 import { logger } from './util/loggerUtils';
 import morgan from 'morgan';
-import config from "./config/config";
 
 
 const server = Express();
