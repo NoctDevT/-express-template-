@@ -1,10 +1,14 @@
 # -express-template-
 A full stack Typescript express template for writing production ready apps
 
-
 ### To run 
+1) create a table in Schema.prisma within the prisma folder and run:
 
-Run the following command below at root repository to run project
+ ```sh
+ npx prisma migrate 
+```
+
+2) Run the following command below at root repository to run project
 ```bash
     docker compose up --build
 ```
